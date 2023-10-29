@@ -184,7 +184,7 @@ changes should be based on **`branch 1.x`**. In a similar way, all Fastify
 > (`127.0.0.1` or `::1`, depending on the operating system configuration). If
 > you are running Fastify in a container (Docker,
 > [GCP](https://cloud.google.com/), etc.), you may need to bind to `0.0.0.0`. Be
-> careful when deciding to listen on all interfaces; it comes with inherent
+> careful when deciding to listen on all interfaces; it comes with an inherent
 > [security
 > risks](https://web.archive.org/web/20170711105010/https://snyk.io/blog/mongodb-hack-and-secure-defaults/).
 > See [the documentation](./docs/Reference/Server.md#listen) for more
@@ -192,18 +192,18 @@ changes should be based on **`branch 1.x`**. In a similar way, all Fastify
 
 ### Core features
 
-- **Highly performant:** as far as we know, Fastify is one of the fastest web
+- **Highly performant:** As far as we know, Fastify is one of the fastest web
   frameworks in town, depending on the code complexity we can serve up to 76+
   thousand requests per second.
 - **Extensible:** Fastify is fully extensible via its hooks, plugins and
   decorators.
-- **Schema based:** even if it is not mandatory we recommend to use [JSON
+- **Schema based:** Even if it is not mandatory we recommend using [JSON
   Schema](https://json-schema.org/) to validate your routes and serialize your
   outputs, internally Fastify compiles the schema in a highly performant
   function.
 - **Logging:** logs are extremely important but are costly; we chose the best
   logger to almost remove this cost, [Pino](https://github.com/pinojs/pino)!
-- **Developer friendly:** the framework is built to be very expressive and help
+- **Developer friendly:** The framework is built to be very expressive and help
   the developer in their daily use, without sacrificing performance and
   security.
 
@@ -350,7 +350,7 @@ listed in alphabetical order.
   <https://www.npmjs.com/~gurgunday>
 
 ### Great Contributors
-Great contributors on a specific area in the Fastify ecosystem will be invited
+Great contributors to a specific area in the Fastify ecosystem will be invited
 to join this group by Lead Maintainers.
 
 * [__dalisoft__](https://github.com/dalisoft), <https://twitter.com/dalisoft>,
